@@ -1,0 +1,60 @@
+# Ignore node_modules for React.js
+node_modules/
+
+# Ignore build files for React.js
+build/
+dist/
+
+# Ignore the .env file (contains sensitive information)
+.env
+
+# Ignore any compiled Solidity contracts
+build/contracts/
+
+# Ignore Truffle specific files
+.truffle/
+
+# Ignore Truffle migration scripts artifacts
+migrations/*.json
+
+# Ignore any local test network data
+testrpc.log
+
+# Ignore Yarn integrity file
+.yarn-integrity
+
+# Ignore development-specific files
+*.DS_Store
+*.iml
+.vscode/
+*.log
+*.swp
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn errors
+.yarn-error.log
+
+# Ignore editor config files
+.editorconfig
+
+# Ignore IDE settings
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore yarn error logs
+.yarn-error.log
+error.log
+
+# Ignore pnpm debug logs
+pnpm-debug.log*
+
+# Ignore coverage directory for testing
+coverage/
+
+# Ignore .vscode directory
+.vscode/
